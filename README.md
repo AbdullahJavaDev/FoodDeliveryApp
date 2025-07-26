@@ -69,4 +69,40 @@ npm install
 ### 4️⃣ Run the application
 ### For Spring Boot
 mvn spring-boot:run
-# OR For Node
+
+## 📂 Project Structure
+
+
+
+
+## ✅ Results
+
+✨ When you run this project, you will experience the following:
+
+- 🍴 **Menu Page:** Dynamically loads food items from the MySQL database.
+- 🛒 **Cart Page:** Add items to the cart, update quantities, and remove items.
+- ✅ **Order Placement:** Successfully places an order and stores it in the database via JDBC.
+- 📄 **Order Confirmation:** Displays an order success page after checkout.
+- 📱 **Responsive Interface:** Works smoothly on different screen sizes (desktop & mobile).
+
+🎯 *This confirms that the integration between JSP, Servlets, JDBC, and MySQL is working correctly!*
+
+## 🤝 Contributing
+
+💡 **Contributions are welcome!**  
+If you’d like to contribute to this project, follow these steps:
+
+1. 🍴 **Fork** the repository.  
+2. 🌱 **Create** your feature branch:  
+   ```bash
+   git checkout -b feature/YourFeatureName
+## 👤 Author
+
+**Shaik Abdull**  
+📧 Email: [your-email@example.com](mailto:your-email@example.com)  
+🔗 LinkedIn: [https://www.linkedin.com/in/your-profile/](https://www.linkedin.com/in/your-profile/)  
+
+💬 *Feel free to reach out for suggestions, collaboration, or feedback!*
+ 
+
+
