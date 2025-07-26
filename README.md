@@ -54,9 +54,6 @@
 
 ## 📦 Installation & Setup
 
-<details>
-<summary>🔧 <b>Click to view installation steps</b></summary>
-
 ### 1️⃣ Clone this repository
 git clone https://github.com/<your-username>/FoodDeliveryApp.git
 
