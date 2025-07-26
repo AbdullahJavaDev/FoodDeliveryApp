@@ -57,16 +57,16 @@
 <details>
 <summary>🔧 <b>Click to view installation steps</b></summary>
 
-# 1️⃣ Clone this repository
+### 1️⃣ Clone this repository
 git clone https://github.com/<your-username>/FoodDeliveryApp.git
 
-# 2️⃣ Navigate into the folder
+### 2️⃣ Navigate into the folder
 cd FoodDeliveryApp
 
-# 3️⃣ Install dependencies (if Node.js)
+### 3️⃣ Install dependencies (if Node.js)
 npm install
 
-# 4️⃣ Run the application
-# For Spring Boot
+### 4️⃣ Run the application
+### For Spring Boot
 mvn spring-boot:run
 # OR For Node
