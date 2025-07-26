@@ -1,30 +1,33 @@
 <h1 align="center">🍕 Food Delivery App 🚀</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Made%20With-Love-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Java-Advanced%20Java-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-Servlets%20%26%20JSP-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Database-MySQL-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-yellow?style=for-the-badge" />
 </p>
 
 <p align="center">
-  A modern and interactive <b>Food Delivery Application</b> that allows users to browse menus, add to cart, and place orders easily.  
+  A full‑stack <b>Food Delivery Web Application</b> built using Java, Advanced Java, Servlets, JSP, JDBC, and MySQL, with a clean and interactive frontend.
 </p>
 
 ---
 
-## ✨ Demo
-🎥 **Watch the Demo:**  
-*(Replace the below with your actual link if you upload video somewhere)*  
-👉 [Demo Video](#)
+## 📌 Demo
+
+🎥 **Watch the working demo:**  
+👉 *(Insert your video link here or host the video on Google Drive / YouTube and share the link)*
 
 ---
 
-## 🚀 Features
-✅ **Browse Food Menu** – Beautifully designed menu with images & prices.  
-✅ **Add to Cart** – Smooth cart functionality with item quantity updates.  
-✅ **Place Orders** – Quick checkout and confirmation.  
-✅ **Responsive UI** – Optimized for mobile and desktop.  
-✅ **Lightweight Backend** – Efficient order handling.
+## ✨ Features
+
+✅ **Menu Display** – Dynamically loads food items from MySQL database.  
+✅ **Add to Cart** – Add/remove items from the cart with smooth updates.  
+✅ **Place Order** – Handles order insertion into MySQL via JDBC.  
+✅ **Admin Panel** – (If shown in your video) Add/update menu items.  
+✅ **Responsive UI** – Designed using HTML, CSS, and JS.  
+✅ **Server‑Side Rendering** – JSP pages render dynamic data.  
 
 ---
 
@@ -32,35 +35,29 @@
 
 | Layer | Technology |
 |-------|------------|
-| Frontend | React.js / HTML / CSS / JS |
-| Backend | Java (Spring Boot) or Node.js (as per your setup) |
-| Database | MySQL / H2 / In-Memory |
-| Tools | Git, Maven/NPM |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Backend** | Java, Advanced Java, Servlets, JSP |
+| **Database** | MySQL (connected via JDBC) |
+| **Server** | Apache Tomcat |
+| **Build Tool** | Maven (if used) or manual WAR deployment |
+
+---
+
+## ⚙️ Requirements
+
+- ✅ **JDK 8+** installed  
+- ✅ **Apache Tomcat 9+** configured  
+- ✅ **MySQL 8+** running with created database  
+- ✅ IDE like Eclipse / IntelliJ
 
 ---
 
 ## 📦 Installation & Setup
 
 <details>
-<summary>🔧 <b>Click to expand installation steps</b></summary>
+<summary>🔧 <b>Click to view installation steps</b></summary>
 
-### Prerequisites
-- ✅ Install [Java JDK 17+](https://adoptopenjdk.net/) or Node.js
-- ✅ Install Maven or npm (based on backend)
-
-### Steps
+### 1️⃣ Clone the repository
 ```bash
-# 1️⃣ Clone this repository
 git clone https://github.com/<your-username>/FoodDeliveryApp.git
-
-# 2️⃣ Navigate into the folder
 cd FoodDeliveryApp
-
-# 3️⃣ Install dependencies (if Node.js)
-npm install
-
-# 4️⃣ Run the application
-# For Spring Boot
-mvn spring-boot:run
-# OR For Node
-npm start
