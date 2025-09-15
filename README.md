@@ -96,8 +96,8 @@ If you’d like to contribute to this project, follow these steps:
 ## 👤 Author
 
 **Shaik Abdull**  
-📧 Email: [your-email@example.com](mailto:shaikabdull123143@gmail.com)  
-🔗 LinkedIn: [https://www.linkedin.com/in/your-profile/]([https://www.linkedin.com/in/your-profile/](https://www.linkedin.com/in/shaik-abdulla-71340934a/))  
+📧 Email: [shaikabdull123143@gmail.com](mailto:shaikabdull123143@gmail.com)  
+🔗 LinkedIn: [https://www.linkedin.com/in/shaik-abdulla-71340934a/]([https://www.linkedin.com/in/your-profile/](https://www.linkedin.com/in/shaik-abdulla-71340934a/))  
 
 💬 *Feel free to reach out for suggestions, collaboration, or feedback!*
  
