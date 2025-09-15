@@ -60,10 +60,7 @@ git clone https://github.com/<your-username>/FoodDeliveryApp.git
 2️⃣ Navigate into the folder
 cd FoodDeliveryApp
 
-3️⃣ Install dependencies (if Node.js)
-npm install
-
-4️⃣ Run the application
+3️⃣ Run the application
 For Spring Boot
 mvn spring-boot:run
 
@@ -97,7 +94,7 @@ If you’d like to contribute to this project, follow these steps:
 
 **Shaik Abdull**  
 📧 Email: [shaikabdull123143@gmail.com](mailto:shaikabdull123143@gmail.com)  
-🔗 LinkedIn: [https://www.linkedin.com/in/shaik-abdulla-71340934a/]([https://www.linkedin.com/in/your-profile/](https://www.linkedin.com/in/shaik-abdulla-71340934a/))  
+🔗 LinkedIn: [https://www.linkedin.com/in/shaik-abdulla-71340934a/](https://www.linkedin.com/in/shaik-abdulla-71340934a/)
 
 💬 *Feel free to reach out for suggestions, collaboration, or feedback!*
  
