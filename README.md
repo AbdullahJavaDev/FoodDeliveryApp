@@ -68,7 +68,7 @@ For Spring Boot
 mvn spring-boot:run
 
 ## 📂 Project Structure
-
+1. 🗂️ [Project Structure Walkthrough](https://drive.google.com/file/d/1JaLp65AatX3Wl5sDQmheSmMBOQteraoL/view?usp=sharing)
 
 
 
