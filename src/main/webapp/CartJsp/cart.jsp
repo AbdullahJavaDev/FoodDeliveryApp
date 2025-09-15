@@ -555,7 +555,7 @@
                     
                     <div class="item-info">
                         <div class="item-name"><%=item.getName()%></div>
-                        <div class="item-price"><%=String.format("%.2f", item.getPrice())%></div>
+                        <div class="item-price">₹<%=String.format("%.2f", item.getPrice())%></div>
                         <div class="item-id">Item ID: <%=item.getId()%></div>
                     </div>
                     
@@ -602,7 +602,7 @@
                     <div class="empty-cart-icon">🛒</div>
                     <h3>Your cart is empty</h3>
                     <p>Add some delicious items to get started!</p>
-                    <a href="../menu.jsp" class="continue-shopping">Start Shopping</a>
+                    <a href="<%=request.getContextPath()%>/home" class="continue-shopping">Start Shopping</a>
                 </div>
                 <%
                     }
@@ -614,26 +614,26 @@
                 <h2 class="section-title">Order Summary</h2>
                 <%
                     if(cartItems != null && !cartItems.isEmpty()) {
-                        double deliveryFee = 2.99;
+                        double deliveryFee = 20.99;
                         double taxRate = 0.08; // 8% tax
                         double tax = subtotal * taxRate;
                         double total = subtotal + deliveryFee + tax;
                 %>
                 <div class="summary-row">
                     <span class="summary-label">Items (<%=cartItems.size()%>):</span>
-                    <span class="summary-value"><%=String.format("%.2f", subtotal)%></span>
+                    <span class="summary-value">₹<%=String.format("%.2f", subtotal)%></span>
                 </div>
                 <div class="summary-row">
                     <span class="summary-label">Delivery Fee:</span>
-                    <span class="summary-value"><%=String.format("%.2f", deliveryFee)%></span>
+                    <span class="summary-value">₹<%=String.format("%.2f", deliveryFee)%></span>
                 </div>
                 <div class="summary-row">
                     <span class="summary-label">Tax (8%):</span>
-                    <span class="summary-value"><%=String.format("%.2f", tax)%></span>
+                    <span class="summary-value">₹<%=String.format("%.2f", tax)%></span>
                 </div>
                 <div class="summary-row total">
                     <span class="summary-label">Total:</span>
-                    <span class="summary-value"><%=String.format("%.2f", total)%></span>
+                    <span class="summary-value">₹<%=String.format("%.2f", total)%></span>
                 </div>
                 
                 <!-- Add More Items Button in Summary -->
@@ -656,19 +656,19 @@
                 %>
                 <div class="summary-row">
                     <span class="summary-label">Items (0):</span>
-                    <span class="summary-value">0.00</span>
+                    <span class="summary-value">₹0.00</span>
                 </div>
                 <div class="summary-row">
                     <span class="summary-label">Delivery Fee:</span>
-                    <span class="summary-value">0.00</span>
+                    <span class="summary-value">₹20.99</span>
                 </div>
                 <div class="summary-row">
                     <span class="summary-label">Tax:</span>
-                    <span class="summary-value">0.00</span>
+                    <span class="summary-value">₹0.00</span>
                 </div>
                 <div class="summary-row total">
                     <span class="summary-label">Total:</span>
-                    <span class="summary-value">0.00</span>
+                    <span class="summary-value">₹0.00</span>
                 </div>
                 
                 <!-- Add Items Button for Empty Cart -->

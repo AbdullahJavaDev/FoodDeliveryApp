@@ -366,7 +366,7 @@
             <div class="restaurant-text">
                 <h1 class="restaurant-name"><%= r1.getName()%></h1>
                 <div class="restaurant-details">
-                    <%=r1.getCusineType() %> • ⭐ <%=r1.getRating() %> • 🕒 <%=r1.getEta() %> min • 🚚 $2.99
+                    <%=r1.getCusineType() %> • ⭐ <%= String.format("%.1f", r1.getRating()) %> • 🕒 <%=r1.getEta() %> min • 🚚 ₹20.99
                 </div>
             </div>
         </div>
@@ -384,11 +384,11 @@
                     <div class="item-details">
                         <div class="item-name">
                             <%=item.getItemName() %>
-                            <span class="popular"><%=item.getRating() %></span>
+                            <span class="popular" style="color:green;">★<%= String.format("%.1f", item.getRating()) %></span>
                         </div>
                         <div class="item-description"><%=item.getDescription() %></div>
                         <div class="item-footer">
-                            <div class="item-price"><%=item.getPrice() %></div>
+                            <div class="item-price" style="color:gold; font-size:24px;">₹<%=item.getPrice() %></div>
                             <form action="cart" method="get" style="display: inline;"><!-- When ever you click on Add to Cart it redirect to the cart servlet -->
                                 <input type="hidden" name="Menu_Id" value="<%=item.getMenuId()%>">
                                 <input type="hidden" name="Quantity" value="1">

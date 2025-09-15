@@ -797,7 +797,7 @@
                         <div class="restaurant-cuisine">🍣 <%= r.getCusineType() %></div>
                         <div class="restaurant-details">
                             <div class="detail-item">🕒 <%= r.getEta() %> min</div>
-                            <div class="detail-item">🚚 $2.99</div>
+                            <div class="detail-item">🚚 ₹20.99</div>
                             <div class="detail-item">📍 <%= r.isActive() %></div>
                         </div>
                         <div class="restaurant-actions" >

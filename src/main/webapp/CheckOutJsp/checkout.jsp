@@ -333,11 +333,11 @@
                                     <label for="state">State *</label>
                                     <select id="state" name="state" required>
                                         <option value="">Select State</option>
-                                        <option value="CA">California</option>
-                                        <option value="NY">New York</option>
-                                        <option value="TX">Texas</option>
-                                        <option value="FL">Florida</option>
-                                        <option value="IL">Illinois</option>
+                                        <option value="cA">TamilNadu</option>
+                                        <option value="NY">Karnataka</option>
+                                        <option value="TX">Kerala</option>
+                                        <option value="FL">Andhra Pradesh</option>
+                                        <option value="IL">Telangaana</option>
                                     </select>
                                 </div>
                                 
@@ -461,7 +461,7 @@
                                 <div class="item-name"><%=item.getName() %></div>
                                 <div class="item-quantity">Qty: <%=item.getQuantity() %></div>
                             </div>
-                            <div class="item-price"><%=item.getPrice() %></div>
+                            <div class="item-price">₹<%=item.getPrice() %></div>
                         </div>
                        <%
                         	}
@@ -478,22 +478,22 @@
                     <!-- Summary Calculations -->
                     <div class="summary-row">
                         <span>Subtotal</span>
-                        <span><%=subtotal%></span>
+                        <span>₹<%=subtotal%></span>
                     </div>
                     
                     <div class="summary-row">
                         <span>Tax (8%)</span>
-                        <span><%=tax %></span>
+                        <span>₹<%=tax %></span>
                     </div>
                     
                     <div class="summary-row">
                         <span>Discount(<%=per %>)</span>
-                        <span style="color: #4CAF50;"><%=discount %></span>
+                        <span style="color: #4CAF50;">₹<%=discount %></span>
                     </div>
                     
                     <div class="summary-row total-row">
                         <span>Total</span>
-                        <span id="totalDisplay"><%=total%></span>
+                        <span id="totalDisplay">₹<%= String.format("%.1f", total) %></span>
                     </div>
 
                     <!-- Order Info -->
