@@ -16,8 +16,8 @@
 ## 📌 Demo
 
 🎥 **Watch the working demo:**  
-👉 *(Insert your video link here or host the video on Google Drive / YouTube and share the link)*
-
+1. 🍕 [Food Delivery App Demo Video 1](https://drive.google.com/file/d/1o6Cgfn2GWB-2RS3DQh-hYg6XLOowtmQe/view?usp=sharing)
+2. 🍔 [Food Delivery App Demo Video 2](https://drive.google.com/file/d/1TPYepMgDX_YS8YHAnVtl5GajOFJxGTTu/view?usp=sharing)
 ---
 
 ## ✨ Features
@@ -96,8 +96,8 @@ If you’d like to contribute to this project, follow these steps:
 ## 👤 Author
 
 **Shaik Abdull**  
-📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-🔗 LinkedIn: [https://www.linkedin.com/in/your-profile/](https://www.linkedin.com/in/your-profile/)  
+📧 Email: [your-email@example.com](mailto:shaikabdull123143@gmail.com)  
+🔗 LinkedIn: [https://www.linkedin.com/in/your-profile/]([https://www.linkedin.com/in/your-profile/](https://www.linkedin.com/in/shaik-abdulla-71340934a/))  
 
 💬 *Feel free to reach out for suggestions, collaboration, or feedback!*
  
